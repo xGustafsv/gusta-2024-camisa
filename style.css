@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --preto: #000000ff;
+    --azul-escuro: #14213dff;
+    --amarelo: #fca311ff;
+    --cinza: #e5e5e5ff;
+    --branco: #ffffffff;
+}
+
+body{
+    background-color: var(--cinza);
+    color: var(--preto);
+}
