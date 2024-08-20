@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -13,7 +13,16 @@
     --branco: #ffffffff;
 }
 
-body{
+body {
     background-color: var(--cinza);
     color: var(--preto);
+    font-size: 16px;
+}
+
+.cabecalho {
+    bacckground-color: var(--fonte-titulo)
+    display: flex;
+    justify-content: space-batween;
+    align-items; center;
+    
 }
