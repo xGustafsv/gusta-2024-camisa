@@ -26,3 +26,25 @@ body {
     align-items; center;
     
 }
+
+.cabecalho-img{
+    whidth:10%;
+    boeder-radius:100%;
+}
+
+.cabecalho-nav__link{
+    text-decoration: none;
+    font-family: var(--azul-escuro);
+    font-size: 30%;
+    color: var(--azul-escuro);
+    margin: 24%;
+}
+
+.pricipal-capa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-image: url(img/fundo.jpg);
+    
+}
