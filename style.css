@@ -5,46 +5,57 @@
     padding: 0;
 }
 
-:root {
+:root{
     --preto: #000000ff;
     --azul-escuro: #14213dff;
     --amarelo: #fca311ff;
-    --cinza: #e5e5e5ff;
+    --cinza: rgb(53, 51, 51);
     --branco: #ffffffff;
+    --fonte-titilo: "New Amsterdam", sans-serif;
+    --fonte-texto: "Baskervville SC", serif;
 }
 
-body {
+body{
     background-color: var(--cinza);
     color: var(--preto);
     font-size: 16px;
 }
 
-.cabecalho {
-    bacckground-color: var(--fonte-titulo)
+.cabecalho{
+    background-color: var(--amarelo);
     display: flex;
-    justify-content: space-batween;
-    align-items; center;
-    
+    justify-content:space-between;
+    align-items: center;
+    padding: 12px;
 }
 
-.cabecalho-img{
-    whidth:10%;
-    boeder-radius:100%;
+.cabecalho-logo{
+    width: 20%;
+    border-radius: 100%;
 }
 
-.cabecalho-nav__link{
+.cabecalho-nav__link {
     text-decoration: none;
     font-family: var(--azul-escuro);
-    font-size: 30%;
+    font-size: 25px;
     color: var(--azul-escuro);
-    margin: 24%;
+    margin: 36px;
 }
 
-.pricipal-capa{
+.cabecalho-nav__link:hover{
+    color: var(--amarelo);
+    font-size: none;
+    transition: 0.5s;
+    text-shadow: 2px 2px var(--amarelo);
+}
+
+.principal-capa{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 24px;
     background-image: url(img/fundo.jpg);
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
