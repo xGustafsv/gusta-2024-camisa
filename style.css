@@ -82,3 +82,20 @@ body{
     color: var(--amarelo);
     transition: 0.5s;
 }
+
+.botao__secundario{
+    background-color: transparent;
+    border: 2px solid var(--amarelo);
+    color: var(--amarelo);
+}
+
+.propaganda_img{
+    width: 50%;
+    border-radius: 36px;
+}
+
+.propaganda_titulo{
+    color: var(--branco);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
