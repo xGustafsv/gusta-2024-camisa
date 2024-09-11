@@ -89,7 +89,7 @@ body{
 }
 
 .propaganda_img{
-    width: 50%;
+    width: 30%;
     border-radius: 36px;
 }
 
@@ -100,7 +100,8 @@ body{
 }
 
 .propaganda_titulo:hover{
-
+    text-shadow: 1px 1px;
+    transition: 0.7s;
 }
 
 .dispositivos{
@@ -123,4 +124,33 @@ body{
 .lista__item{
     font-size: 24px;
     color: var(--amarelo);
+}
+
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+} 
+
+.lista__link a{
+    color: var(--amarelo);
+    text-decoration: none;
+    margin-left: 1em;
+    font-size: 16px;
+}
+
+.rodape__texto{
+    margin: 1em 0;
+    color: var(--amarelo);
+    font-size: 10px;
+}
+
+.rodape__logo{
+    width: 30px;
+}
+
+.rodape{
+    text-align: center;
+    margin: 1em 3em;
 }
